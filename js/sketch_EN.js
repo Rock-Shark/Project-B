@@ -799,8 +799,8 @@ function draw() {
       w7 = new select(2, "But we can sing it here..", "……")
 
       l = new D_size(0, 255, 10)
-      d7 = new Dialogue('小洛沙', 10, '小洛沙', 1)
-      D7 = ["放学路上我偶尔会给自己哼歌", "但是好像现在有点记不太清了……", "你可以帮我把那首曲子找回来吗？", "具体的方法是，在我脑内有灵感的时候帮我唤醒那个音！", "也就是在规定时间内点击蓝色的圆圈\n弹奏音符，只要达到11分就算过关！", "小心不要超出时间限额或者点到\n圆圈外！否则会扣分哦！", "好了！那我们开始吧！"]
+      d7 = new Dialogue('Little RS', 10, 'Little RS', 1)
+      D7 = ["I would hum to myself a \nsong on my way home from school.", "But that song is vague in my mind..", "Can you help me to find that song?", "More specifically,", "click on the blue circle and \ntry to gain 11 scores!", "Be careful no to click on elsewhere!", "Okay let's start!"]
       frame = frameCount
       subPhase = 1
     } else if (subPhase == 1) {
@@ -993,13 +993,13 @@ function draw() {
       n = new D_size(0, 255, 2)
       x_head = 1100
 
-      d7 = new Dialogue("小洛沙", 10, "和同伴断联的孩子", 4)
-      D7 = ["收集全了！看我三下五除二", "——做好啦！", "*获得了 手编花环！*", "好嘞，那我们现在就去送给…", "…送给谁来着。", "她们……？", "我们已经很久不联系了。", "这里一个人都没有。我们回去吧。"]
+      d7 = new Dialogue("Little RS", 10, "Kid who disconnect with peers", 4)
+      D7 = ["We've collected all!", "Let me make the ring--", "*GOT Flower ring*", "Okay I'll send it to..", "..who?", "They..?", "We haven't connect for a very long time.", "There's no one left. Let's go back."]
 
-      d8 = new Dialogue("小洛沙", 10, "小洛沙", 1)
-      D8 = [" ", "诶嘿，今天要找朋友们去玩～\n我想提前给她们准备点小礼物！", "收集点树上的花来做个花环吧ww", "……", "花好像不多诶", "尽量把它们全都采集到吧！", "也就是说，\n通过键盘上的左右键移动篮子去接住掉下来的花，\n花的总数只有20朵，要至少接到10朵哦！", "那让我们开始吧！"]
+      d8 = new Dialogue("Liitle RS", 10, "Little RS", 1)
+      D8 = [" ", "I want to prepare my friends some gift!", "Let's collect some \nflowers from the try!", "……", "There's not much flowers.", "Let's try to collect most of them!", "More specifically, collect\n 10 flowers out of 20!", "Then Let's start!"]
 
-      w8 = new select(2, "你的朋友？", "不是你的朋友吗？")
+      w8 = new select(2, "Your friends?", "I thought that's your friends.")
 
       subPhase = 1
 
@@ -1165,18 +1165,18 @@ function draw() {
       q = new D_size(0, 255, 10)
       x_head = 1100
 
-      d9 = new Dialogue("数学题", 10, "数学题", 0)
+      d9 = new Dialogue("Maths", 10, "Maths", 0)
       D9 = ["6+7=?"]
-      d10 = new Dialogue("还是数学题", 10, "还是数学题", 0)
+      d10 = new Dialogue("also Maths", 10, "also Maths", 0)
       D10 = ["1.6x5=?"]
       w9 = new select(2, "13", "14")
       w10 = new select(2, "9", "8")
 
-      d11 = new Dialogue("小洛沙", 10, "无法回到教室的孩子", 3)
-      D11 = ["我们做到了！！！！我把答案给算出来了！", "快你帮我拿着笔我要去找老师交作业！", "*获得了 用了一半的铅笔*", "……", "我们这届早就毕业了。\nTa早就不教我了。", "我们还是回去吧。"]
+      d11 = new Dialogue("Little RS", 10, "Kids can't return to classroom.", 3)
+      D11 = ["WE DID IT!", "Take my pen and I'll find my teacher!", "*Got Pencil*", "……", "Actually, she doesn't teach me any more.", "Let's head back."]
 
-      d12 = new Dialogue("小洛沙", 10, "小洛沙", 1)
-      D12 = ["要渡劫了！现在是——", "数学作业时间。", "做好心理准备，这关会很难。", "我们要跨越那些作业的大山。", "具体来说，你需要用键盘的w键跳跃，s键俯冲，\n帮助我跳过那些白色的障碍物，达到1500分以上。", "你可以连跳，但是要小心！碰到障碍物\n或者飞得太高都会受到伤害！", "而且我建议你另一只手随时准备好，\n说不定中途会有来自数学题的惊吓。", "准备好了？那我们开始吧！"]
+      d12 = new Dialogue("Liitle RS", 10, "Little RS", 1)
+      D12 = ["IT IS", "MATHS TIME.", "Be prepared, it'll be hard.", "We need to go over those obstacles.", "To be more specifically,\n pree W or S to jump \nand gain 1500 scores.", "Be careful cause flying \ntoo high may also be hurt!", "Also, be prepared for \nthe surprise from math.", "Ready? Let's start!"]
       frame = frameCount
       subPhase = 1
     } else if (subPhase == 1) {
@@ -1421,16 +1421,16 @@ function draw() {
       t = new D_size(0, 255, 10)
       subPhase = 1
       frame = frameCount
-      d13 = new Dialogue("小女孩", 10, "小女孩", 0)
-      D13 = ["......", "其实刚才的一切都是幻象。毕竟我们在过去。", "你当然可以回来，但已经逝去\n的一切只在你脑中留下了模糊的痕迹。", "真正的过去已经空无一物，也空无一人了。", "而我也不例外。人是不能带着曾经的自己前往未来的。", "过去永远只能立于空荡荡的曾经，定在那里成为标杆，\n我的虚影是你在这空无一人的时空仅剩的唯一的锚。", "……所以我很孤独，这里的一切都如此不切实际，\n我只能用半真半假的记忆做着飘忽不定的梦。", "“现在”的你可以不断学习、体验新事物，\n遭遇新的邂逅，为新的烦恼所苦恼，", "而我只能沉溺在过去，反复体验着相同却局限的事物。", "我太孤独了……", "所以，最后一个请求。", "你，可以留下来陪我吗？"]
-      w11 = new select(2, "留下来。", "不留下来。")
+      d13 = new Dialogue("Little girl", 10, "Little girl", 0)
+      D13 = ["......", "Actually, everything you saw was illusion.", "You can come back, but there's \nnothing left but vague memories.", "There's only blank.", "And the fate for me is \nto stay in this vague forever.", "...", "..And I'm so lonely in this\n boring fixed experiences..", "“But the 'present' you can develop \nby learning from new things.", "Which is the ability I can never get.", "I'm so lonely..", "So, last request.", "Can you stay here with me?"]
+      w11 = new select(2, "Stay.", "Leave.")
 
-      d14 = new Dialogue("过去的牢笼", 10, "过去的牢笼", 0)
-      D14 = ["……太好了。那你就留下来吧。\n永远不要回去，陪着我在这里，", "无限、反复地寻找那些早已迷失的记忆，", "直到最后把自我遗忘，沦为\n只属于过去的某个碎片吧。", "...这也是没有办法的，因为过去只有已经发生的固定事件，\n和你这种充满随机数的未来生物是无法长时间相融的。", "如果你想留在这里，只能化作回忆中的\n某个npc，照着安排好的剧本无穷无尽地演绎一个固定的故事……", "那么你就可以成为一粒好看的\n小珠子，加入我刚打扮好的小盒子里了……", "永远，陪伴我吧……"]
+      d14 = new Dialogue("Past wade", 10, "Past wade", 0)
+      D14 = ["..That's good. Stay with me forever.", "Trapped and drowned in the past memories.", "Until you lost yourself...", "Join me.", "And be ready to be consumed by the meaninglessness..", "Stay with me", "Forever……"]
 
 
-      d15 = new Dialogue("小洛沙", 10, "小洛沙", 0)
-      D15 = ["嗯……我知道你有属于自己的未来。", "虽然对来自过去的我来说是未来，\n但对于你来说是正在发生的“现在”吧？", "...真羡慕，我为什么不能\n有自己的故事呢？", "不过……反正我是过去之人，没有\n活在当下的人那么强大，这次就放你走吧。", "我很高兴能看到我梦想中的未来正在生机勃勃地流淌\n在你身上。你也要努力奔向未来，不要把来自过去的我忘了哦。"]
+      d15 = new Dialogue("Little RS", 10, "Little RS", 0)
+      D15 = ["Sorry..I know you have your own future.", "Although it's 'future' to me,\n but it's 'present' for you, isn't it?", "I also want to have my own stories.", "Anywas, I'm the shadow from the past. I'll let you go.", "You can go to the future, \nbut remember: don't forget the past."]
     } else if (subPhase == 1) {
       fill(0, 0, 0, s.currentS)
       s.expand()

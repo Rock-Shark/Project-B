@@ -383,6 +383,7 @@ function draw() {
           subPhase = 0;
           ready = 0;
           e.currentS = 0;
+          end = 0
         }
       }
     }

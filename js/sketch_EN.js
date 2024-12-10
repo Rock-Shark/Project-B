@@ -96,7 +96,7 @@ function preload() {
 
 function setup() {
   let canvas = createCanvas(1100, 700);
-  canvas.parent("p5-canvas-container");
+  canvas.parent("p5-canvas-container-1");
   textAlign(CENTER, CENTER);
 
   for (let i = 0; i < 8; i++) {

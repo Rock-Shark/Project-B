@@ -18,7 +18,7 @@ body {
   height: 100vh;
   margin: 0;
   background-attachment: fixed;
-  color:aliceblue
+  color: aliceblue
 }
 
 canvas {
@@ -77,6 +77,21 @@ canvas {
   width: 800px;
 }
 
+#p5-canvas-container-1 {
+  background-color: #a7afcf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1100px;
+  margin: 0 auto;
+  height: 800px;
+}
+
+#p5-canvas-container-1 img {
+  width: 800px;
+}
+
+
 
 .image-container {
   display: grid;
@@ -88,4 +103,38 @@ canvas {
 .image-container img {
   width: 100%;
   height: auto;
+}
+
+#english a {
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  padding: 20px 40px;
+  color: dimgrey;
+  border: solid grey 0.5px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+#english a:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+#CN a {
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  padding: 20px 40px;
+  color: dimgrey;
+  border: solid grey 0.5px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+#CN a:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
 }

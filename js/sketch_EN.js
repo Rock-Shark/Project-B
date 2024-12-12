@@ -381,6 +381,7 @@ function draw() {
           subPhase = 0;
           ready = 0;
         } else if (c.currentS >= 225 && end == -1) {
+          end = 0
           phase = -1;
           subPhase = 0;
           ready = 0;
@@ -544,13 +545,13 @@ function draw() {
         fill(255, 255, 255, g.currentS)
         g.expand()
         rect(700, 520, 1100, 1820)
-        if (mouseX > 731 && mouseX < 912 && mouseY > 534 && mouseY < 564) {
+        if (mouseX > 731 && mouseX < 1012 && mouseY > 534 && mouseY < 564) {
           fill(146, 32, 32, h.currentS)
         } else {
           fill(0, 0, 0, h.currentS)
         }
         h.expand()
-        text('-INTRODUCE AGAIN-', 822, 554)
+        text('-INTRODUCE AGAIN-', 862, 554)
         if (mouseX > 731 && mouseX < 914 && mouseY > 584 && mouseY < 612) {
           fill(146, 32, 32, h.currentS)
         } else {

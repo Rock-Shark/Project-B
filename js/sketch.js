@@ -116,6 +116,7 @@ function draw() {
 
 
   //quick shifting for testing I'll delete it when the game's done
+  /*
   if (keyIsPressed == true) {
     if (key == '1') {
       phase = 1
@@ -135,6 +136,7 @@ function draw() {
 
     }
   }
+    */
 
 
   if (phase == 0) {
